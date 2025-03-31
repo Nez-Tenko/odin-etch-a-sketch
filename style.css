@@ -12,7 +12,6 @@ body, html {
   flex-direction:column;
   justify-content:space-between;
   align-items:center;
-  
 }
 
 .grid-create-btn {
@@ -24,10 +23,11 @@ body, html {
   flex-wrap: wrap;
   width:960px;
   height:960px;
-  outline:solid black;
-  //flex-shrink:1; 
+  outline:solid black; 
 }
 
+/* use the below class as a template for how to make the divs that will be colored */
+/*
 .grid-div {
    
   flex:1 0 6.25%; //the flex-basis determines the row and column length  
@@ -35,3 +35,4 @@ body, html {
   text-align:center;
   //height:6.25vh; // this gives us a 16x16 grid 
 }
+*/
