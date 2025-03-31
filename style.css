@@ -1,0 +1,37 @@
+html {
+  font-size: 10px;
+
+}
+
+body, html {
+  margin:0;
+  padding:20px;
+  gap:70px;
+  font-family: sans-serif;
+  display:flex;
+  flex-direction:column;
+  justify-content:space-between;
+  align-items:center;
+  
+}
+
+.grid-create-btn {
+  align-self:center;
+}
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  width:960px;
+  height:960px;
+  outline:solid black;
+  //flex-shrink:1; 
+}
+
+.grid-div {
+   
+  flex:1 0 6.25%; //the flex-basis determines the row and column length  
+  font-size:1.5rem;
+  text-align:center;
+  //height:6.25vh; // this gives us a 16x16 grid 
+}
